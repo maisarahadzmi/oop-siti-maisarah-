@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uni.css">
+    <title>UNIVERSITY</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+          <a href="home.html">Edu<span>xyz</span></a>
+          <div class="nav-links">
+            <ul>
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="uni.html">UNIVERSITY</a></li>
+              <li><a href="index.html">BLOG</a></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+     <div align="center">
+        <div class="form_box" align="center">
+            <input type="text" id="country" name="text" class="search-input" placeholder="Country">
+                <!-- User select parameter (search for uni/college etc) -->
+                <select id="variety" class="selection">
+                    <option>Institute Type</option>
+                    <option value="university">University</option>
+                    <option value="universiti">Universiti</option>
+                    <option value="college">College</option>
+                </select><br><br>
+                <input class="search-btn" type="button" value="Search" onclick="buttonClicked()">
+        </div>
+        </div>
+
+        <!-- call id from JS (API) -->
+        <table id="table">
+			<tr>
+			<th>Institute Name</th>
+            <td class="uni0"></td>
+            <td class="uni1"></td>
+            <td class="uni2"></td>
+            <td class="uni3"></td>
+            <td class="uni4"></td>
+			</tr>
+            
+            <tr>
+            <th>URL</th>
+            <td class="linkweb0"></td>  
+            <td class="linkweb1"></td>         
+            <td class="linkweb2"></td>    
+            <td class="linkweb3"></td>
+            <td class="linkweb4"></td>
+            </tr>
+		</table>
+        
+    </div>
+    </section>
+    <!-- JS files -->
+    <script src="main.js"></script>
+    
+</body>
+</html>

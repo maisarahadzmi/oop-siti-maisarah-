@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+  
+  }
+  .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 4%;
+  }
+  nav a {
+    color: #fff;
+    font-size: x-large;
+    text-decoration: none;
+  }
+  nav a span{
+    color: #f1f111;
+    font-size: x-large;
+    text-decoration: none;
+  }
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+  .nav-links ul li{
+    display: inline-block;
+    margin: 5px 20px;
+  }
+  .nav-links ul li a{
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .nav-links ul li a::after{
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0%;
+    background: #f1f111;
+    transition: .6s;
+  }
+  .nav-links ul li a:hover:after{
+    width: 100%;
+  }
+  
+  
+  
+  .text-box{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text-box h1{
+    font-size: 60px;
+    font-family: 'Abril Fatface', cursive;
+  }
+  .text-box p{
+    font-size: 30px;
+  }
+  .text-box a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 8px 40px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    background: transparent;
+    transition: .6s;
+  }
+  .text-box a:hover{
+    background: #f1f111e1;
+    border: 1px solid #f1f111;
+  }
+  
+  .tittle{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 4px;
+    font-size: 20px;
+    text-align: center;
+    color: #12427F;
+  
+  }
+  
+  div.uni_images{
+    margin: 10px;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-left: 90px;
+  }
+  
+  div.container{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #355c7d;
+  }
